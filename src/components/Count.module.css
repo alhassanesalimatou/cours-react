@@ -1,48 +1,44 @@
-.Container{
-    background-color: aliceblue;
+.container{
+    background-color: antiquewhite;
     padding: 2rem;
     border-radius: 0.5rem;
-    
+    color: black;
 }
+
 h1{
-    color: black;
+    font-weight: bold;
 }
 
-.button{
-    display: flex;
-    gap: 1rem;
-}
 
-.Increment{
+.increment{
+    gap: 10;
     background-color: green;
-    padding: 1rem;
-    text-align: center;
+    font-weight: 600;
     border-radius: 0.5rem;
-    font-weight: bold;
-    font-size: 18px;
-    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    width: 3rem;
 }
 
-.Decrement{
+.decrement{
     background-color: blue;
-    color: black;
-    padding: 4px;
-    padding: 1rem;
-    text-align: center;
+    font-weight: 600;
     border-radius: 0.5rem;
-    font-weight: bold;
-    font-size: 18px;
-    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    width: 3rem;
 }
 
-.Reinitaliser{
+.reset{
     background-color: red;
-    padding: 4px;
-    color: black;
-    padding: 1rem;
-    text-align: center;
+    font-weight: 600;
     border-radius: 0.5rem;
-    font-weight: bold;
-    font-size: 18px;
-    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.buttonContainer{
+    
 }
